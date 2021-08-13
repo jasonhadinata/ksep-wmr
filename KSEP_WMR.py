@@ -46,5 +46,5 @@ driver.get("https://www.idx.co.id/data-pasar/laporan-statistik/statistik/#weekly
 driver.find_element_by_xpath("/html/body/main/div[1]/div[2]/div[2]").click()
 driver.find_element_by_xpath("/html/body/main/div[2]/div/div[2]/div/div[3]/table/tbody/tr[1]/td[4]/a").click()
 
-with ExcelWriter('C:/Users/jason/Desktop/KSEP_WMR.xlsx') as writer:
+with ExcelWriter('C:/Users/Jason/Desktop/KSEP_WMR.xlsx') as writer:
     index_df.to_excel(writer, sheet_name='index', index=False)
