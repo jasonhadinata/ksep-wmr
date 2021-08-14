@@ -1,5 +1,5 @@
 # KSEP Weekly Market Review Mini Scraper
 
-Program untuk mencatat data indeks dengan timeframe mingguan dan membuka laporan mingguan dari BEI.
+The program scrapes the weekly data of several popular stock indices and opens several tabs of report from Indonesia Stock Exchange (Bursa Efek Indonesia) website.
 
-Sebelum menggunakan, ganti direktori di baris ke-49 dengan direktori di PC Anda.
+Change the directory on line 49 with your desired directory.
